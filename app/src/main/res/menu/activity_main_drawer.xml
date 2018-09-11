@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Employees">
+        <menu>
+            <item
+                android:id="@+id/nav_admin"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Admin" />
+            <item
+                android:id="@+id/nav_user"
+                android:icon="@drawable/ic_group_black_24dp"
+                android:title="User" />
+        </menu>
+    </item>
+
+</menu>
